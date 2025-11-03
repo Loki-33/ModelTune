@@ -6,7 +6,7 @@ It was tested before that the model has no capabiliities whatsoever to even do s
 
 ## OVERVIEW
 Model Used: EleutherAI/pythia-410m <br>
-1. INSTRUCTION TUNE (math-instruction-finetuning.ipynb)
+1. INSTRUCTION TUNE (math-instruction-finetuning.ipynb)<br>
 Trained on "tatsu-lab/alpaca" dataset, which contains a bunch on instructions. <br>
 Trained using Lora-method, rank=8, alpha=16, target_modules=['query_key_value']<br>
 2. SFT-TUNED (math-sft.ipynb)<br>
